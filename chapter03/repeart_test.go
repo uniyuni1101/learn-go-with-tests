@@ -5,15 +5,15 @@ import (
 	"testing"
 )
 
-func repeartHelper(t testing.TB, char string, repeart int, expected string) {
-	t.Helper()
-	repearted := Repeart(char, repeart)
-	if repearted != expected {
-		t.Errorf("expected %q but got %q", expected, repearted)
-	}
-}
-
 func TestRepeart(t *testing.T) {
+	repeartHelper := func(t testing.TB, char string, repeart int, expected string) {
+		t.Helper()
+		repearted := Repeart(char, repeart)
+		if repearted != expected {
+			t.Errorf("expected %q but got %q", expected, repearted)
+		}
+	}
+
 	t.Run("5 repeart", func(t *testing.T) {
 		char := "a"
 		repeart := 5
