@@ -10,3 +10,10 @@ func TestRepeart(t *testing.T) {
 		t.Errorf("expected %q but got %q", expected, repearted)
 	}
 }
+
+
+func BenchmarkRepeart(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		Repeart("a")
+	}
+}
