@@ -1,4 +1,4 @@
-package main
+package chapter04
 
 import (
 	"reflect"

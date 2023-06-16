@@ -1,4 +1,4 @@
-package main
+package chapter05
 
 import "math"
 

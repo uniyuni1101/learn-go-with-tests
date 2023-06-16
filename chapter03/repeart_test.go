@@ -1,4 +1,4 @@
-package iteration
+package chapter03
 
 import (
 	"fmt"

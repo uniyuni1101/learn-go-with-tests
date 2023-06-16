@@ -1,4 +1,4 @@
-package iteration
+package chapter03
 
 func Repeart(charactor string, repeart int) string {
 	var repearted string

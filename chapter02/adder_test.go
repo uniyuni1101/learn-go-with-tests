@@ -1,4 +1,4 @@
-package integers
+package chapter02
 
 import (
 	"fmt"

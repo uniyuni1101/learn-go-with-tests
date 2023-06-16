@@ -1,4 +1,4 @@
-package main
+package chapter04
 
 func Sum(numbers []int) int {
 	sum := 0
